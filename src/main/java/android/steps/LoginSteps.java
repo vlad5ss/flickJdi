@@ -24,7 +24,7 @@ public class LoginSteps {
         MobileKeyboard.pressKey(AndroidKey.BACK);
         loginPage.passwordTextField.input(PASSWORD);
         LoginPage.signinBtn.click();
-        new Timer(10000L).wait(() -> navMenuPages.navMenuFeeds.isDisplayed());
+        new Timer(20000L).wait(() -> navMenuPages.navMenuFeeds.isDisplayed());
         return this;
     }
 

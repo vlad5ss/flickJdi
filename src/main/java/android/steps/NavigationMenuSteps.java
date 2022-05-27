@@ -23,7 +23,7 @@ public class NavigationMenuSteps {
     public NavigationMenuSteps tapProfile(){
         log.println("Navmenu click");
         navMenuPages.navMenuProfile.click();
-        new Timer(10000L).wait(() -> profilePage.statsTab.isDisplayed());
+        new Timer(10000L).wait(() -> profilePage.threeDot.isDisplayed());
         return this;
     }
 
