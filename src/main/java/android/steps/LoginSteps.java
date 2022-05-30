@@ -14,8 +14,10 @@ public class LoginSteps {
     private final String PASSWORD ="Automation22";
 
     public LoginSteps loginFlickr() {
+        new Timer(10000L).wait(() -> loginPage.getStarted.isDisplayed());
         loginPage.getStarted.click();
-        new Timer(10000L).wait(() -> loginPage.emailTextfield.isDisplayed());
+        new Timer(15000L).wait(() -> loginPage.emailTextfield.isDisplayed());
+        MobileKeyboard.pressKey(AndroidKey.ENTER);
         loginPage.emailTextfield.input(EMAIL);
         new Timer(10000L).wait(() -> LoginPage.loginNextBtn.isDisplayed());
         LoginPage.loginNextBtn.click();
