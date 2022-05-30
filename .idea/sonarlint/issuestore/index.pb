@@ -33,3 +33,5 @@ V
 &src/test/java/main/FlickrTestInit.java,7\c\7c8c962d5bdf872ccee254cf83f3011c5dbb7d55
 W
 'src/test/java/main/tests/MainTests.java,9\9\99c4cb6788516393265b7afca8470dc9f2610097
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

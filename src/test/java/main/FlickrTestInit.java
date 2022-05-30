@@ -18,7 +18,7 @@ public class FlickrTestInit {
     public void setUp() {
         final String FILE_NAME = "src/main/resources/flickr.apk";
         initMobile(FlickApp.class);
-        logger.toLog("Run ApiDemos App Tests");
+        logger.toLog("Run flick app");
         File file = new File(FILE_NAME);
         String path = file.getAbsolutePath();
         AppManager.installApp(path);
