@@ -4,12 +4,15 @@ package main.tests;
 import android.intefaces.FlickS;
 import main.FlickrTestInit;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
 import static android.wiki.FlickApp.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class MainTests extends FlickrTestInit implements FlickS {
+
+    private String CREDIT = "Credits";
+    private String ABOUT = "About";
+    private String HELP = "Help";
 
     @Test
     public void loginTest() {
@@ -29,22 +32,16 @@ public class MainTests extends FlickrTestInit implements FlickS {
         loginSteps.loginFlickr();
         navigationMenuSteps.tapProfile();
         threeDotSteps.clickThre();
-        assertThat(profilePage.aboutMe.getText()).as("Stats tab is displayed").contains("About");
-        assertThat(profilePage.helpMe.getText()).as("Stats tab is displayed").contains("Help");
+        assertThat(profilePage.aboutMe.getText()).as("Stats tab is displayed").contains(ABOUT);
+        assertThat(profilePage.helpMe.getText()).as("Stats tab is displayed").contains(HELP);
     }
 
     @Test
     public void threSoftDotTest() {
-        SoftAssert softAssertion = new SoftAssert();
         loginSteps.loginFlickr();
         navigationMenuSteps.tapProfile();
         threeDotSteps.clickThre();
-        softAssertion.assertTrue(profilePage.aboutMe.isDisplayed());
-        softAssertion.assertTrue(profilePage.notifySwitchTogle.isDisplayed());
-        softAssertion.assertTrue(profilePage.cameraSwitchTogle.isDisplayed());
-        softAssertion.assertTrue(profilePage.proCron.isDisplayed());
-        softAssertion.assertTrue(profilePage.joinPro.isDisplayed());
-        softAssertion.assertAll();
+        assertThat(profilePage.aboutMe.isDisplayed()).as("Stats tab is displayed").isTrue();
     }
 
     @Test
@@ -52,15 +49,14 @@ public class MainTests extends FlickrTestInit implements FlickS {
         loginSteps.loginFlickr();
         navigationMenuSteps.tapProfile();
         threeDotSteps.clickThre().clickAbout();
-        assertThat(aboutPage.credits.getText()).as("Stats tab is displayed").contains("Credits");
+        assertThat(aboutPage.credits.getText()).as("Stats tab is displayed").contains(CREDIT);
     }
 
     @Test
-    public void viewCameraTest() throws InterruptedException {
+    public void viewCameraTest() {
         loginSteps.loginFlickr();
         navigationMenuSteps.tapCamera();
         cameraSteps.clickAllowCamera();
-        Thread.sleep(40000);
     }
 }
 
