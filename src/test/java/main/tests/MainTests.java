@@ -13,6 +13,7 @@ public class MainTests extends FlickrTestInit implements FlickS {
     private String CREDIT = "Credits";
     private String ABOUT = "About";
     private String HELP = "Help";
+    private String WELCOME = "Welcome to Flickr!";
 
     @Test
     public void loginTest() {
@@ -58,6 +59,14 @@ public class MainTests extends FlickrTestInit implements FlickS {
         navigationMenuSteps.tapCamera();
         cameraSteps.clickAllowCamera();
     }
+
+    @Test
+    public void tapNotification() {
+        loginSteps.loginFlickr();
+        navigationMenuSteps.tapNotification();
+        assertThat(notificationPage.welcomeTxt.getText()).as("Stats tab is displayed").isEqualTo(WELCOME);
+    }
+
 }
 
 
