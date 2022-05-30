@@ -14,6 +14,7 @@ public class MainTests extends FlickrTestInit implements FlickS {
     private String ABOUT = "About";
     private String HELP = "Help";
     private String WELCOME = "Welcome to Flickr!";
+    private String NOTIFY_TXT = "Whenever friends follow you or fave your photos, you'll get a notification here";
 
     @Test
     public void loginTest() {
@@ -61,10 +62,17 @@ public class MainTests extends FlickrTestInit implements FlickS {
     }
 
     @Test
-    public void tapNotification() {
+    public void tapNotificationTest() {
         loginSteps.loginFlickr();
         navigationMenuSteps.tapNotification();
-        assertThat(notificationPage.welcomeTxt.getText()).as("Stats tab is displayed").isEqualTo(WELCOME);
+        assertThat(notificationPage.welcomeTxt.getText()).as("Welcome txt").isEqualTo(WELCOME);
+    }
+
+    @Test
+    public void tapNotificationGetTxtTest() {
+        loginSteps.loginFlickr();
+        navigationMenuSteps.tapNotification();
+        assertThat(notificationPage.notifyTxt.getText()).as("Get Notifi txt").isEqualTo(NOTIFY_TXT);
     }
 
 }
