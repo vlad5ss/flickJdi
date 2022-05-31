@@ -74,7 +74,6 @@ public class MainTests extends FlickrTestInit implements FlickS {
         navigationMenuSteps.tapNotification();
         assertThat(notificationPage.notifyTxt.getText()).as("Get Notifi txt").isEqualTo(NOTIFY_TXT);
     }
-
 }
 
 

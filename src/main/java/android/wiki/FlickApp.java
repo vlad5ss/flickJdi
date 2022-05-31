@@ -12,4 +12,5 @@ public class FlickApp {
     public static AboutPage aboutPage;
     public static CameraPage cameraPage;
     public static NotificationPage notificationPage;
+    public static SearchPage searchPage;
 }

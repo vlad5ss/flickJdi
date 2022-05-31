@@ -11,6 +11,5 @@ public interface UserConfig extends Config {
     String email();
     @Key("Password")
     String password();
-
 }
 
