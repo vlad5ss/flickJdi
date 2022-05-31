@@ -8,4 +8,5 @@ public interface FlickS {
     ThreeDotSteps threeDotSteps = new ThreeDotSteps();
     CameraSteps cameraSteps = new CameraSteps();
     SearchSteps searchSteps = new SearchSteps();
+    CommentSteps commentSteps =new CommentSteps();
 }

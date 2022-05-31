@@ -2,9 +2,11 @@ package android.steps;
 
 import com.epam.jdi.light.mobile.elements.common.MobileDevice;
 import com.epam.jdi.light.mobile.elements.composite.MobileScreen;
+import com.jdiai.tools.Timer;
 import io.qameta.allure.Step;
 import org.openqa.selenium.ScreenOrientation;
 
+import static android.wiki.FlickApp.photoPage;
 import static android.wiki.FlickApp.searchPage;
 
 public class SearchSteps {
@@ -21,12 +23,12 @@ public class SearchSteps {
         searchPage.cancellBtn.click();
     }
 
-    @Step("Portrait orientation")
+    @Step("LandScape orientation")
     public void lanscapeOrientation() {
         MobileDevice.rotate(ScreenOrientation.LANDSCAPE);
     }
 
-    @Step("Landscape orientation")
+    @Step("Portrait orientation")
     public void portraitOrientation() {
         MobileDevice.rotate(ScreenOrientation.PORTRAIT);
     }
@@ -44,5 +46,16 @@ public class SearchSteps {
     @Step("Scrol top")
     public void scroollTop() {
         MobileScreen.scrollToTop();
+    }
+
+    @Step("Tap Photo")
+    public void tapPhoto() {
+        new Timer(10000L).wait(() -> searchPage.images.isDisplayed());
+        searchPage.images.click();
+    }
+
+    @Step("Click comment")
+    public void commentClick() {
+      photoPage.comment.click();
     }
 }

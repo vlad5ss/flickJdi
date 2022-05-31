@@ -7,7 +7,7 @@ import com.jdiai.tools.Timer;
 import io.appium.java_client.android.nativekey.AndroidKey;
 
 import static android.wiki.FlickApp.loginPage;
-import static android.wiki.FlickApp.navMenuPages;
+import static android.wiki.FlickApp.navMenuPage;
 
 public class LoginSteps {
 
@@ -24,7 +24,7 @@ public class LoginSteps {
         MobileKeyboard.pressKey(AndroidKey.BACK);
         loginPage.passwordTextField.input(UserConfig.CONF.password());
         LoginPage.signinBtn.click();
-        new Timer(20000L).wait(() -> navMenuPages.navMenuFeeds.isDisplayed());
+        new Timer(20000L).wait(() -> navMenuPage.navMenuFeeds.isDisplayed());
         return this;
     }
 }

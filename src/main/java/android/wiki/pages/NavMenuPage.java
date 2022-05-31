@@ -3,7 +3,7 @@ package android.wiki.pages;
 import com.epam.jdi.light.mobile.elements.common.Button;
 import com.epam.jdi.light.mobile.elements.pageobjects.annotations.MobileFindBy;
 
-public class NavMenuPages {
+public class NavMenuPage {
     @MobileFindBy(xpath = "//android.widget.ImageButton[@content-desc=\"Activity\"]")
     public static Button navMenuFeeds;
 

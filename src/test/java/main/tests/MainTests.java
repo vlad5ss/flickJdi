@@ -19,7 +19,7 @@ public class MainTests extends FlickrTestInit implements FlickS {
     @Test
     public void loginTest() {
         loginSteps.loginFlickr();
-        assertThat(navMenuPages.navMenuFeeds.isDisplayed()).as("nav Menu is Displayed").isTrue();
+        assertThat(navMenuPage.navMenuFeeds.isDisplayed()).as("nav Menu is Displayed").isTrue();
     }
 
     @Test
