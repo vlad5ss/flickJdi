@@ -58,4 +58,9 @@ public class SearchSteps {
     public void commentClick() {
       photoPage.comment.click();
     }
+
+    @Step("Click faves")
+    public void favesClick() {
+        photoPage.faves.click();
+    }
 }

@@ -9,4 +9,5 @@ public interface FlickS {
     CameraSteps cameraSteps = new CameraSteps();
     SearchSteps searchSteps = new SearchSteps();
     CommentSteps commentSteps =new CommentSteps();
+    FoawesSteps fawesSteps =new FoawesSteps();
 }
