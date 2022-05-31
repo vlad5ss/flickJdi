@@ -15,7 +15,11 @@ public class SearchSteps {
         searchPage.searchBtn.click();
         searchPage.searchTextView.input(name);
         searchPage.searchBtn.click();
-        new Timer(5000L).wait(() ->   searchPage.firstImage.isDisplayed());
+    }
+
+    @Step("Cancell item click")
+    public void cancellItemClick() {
+        searchPage.cancellBtn.click();
     }
 
     @Step("Portrait orientation")

@@ -9,6 +9,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class SearchTest extends FlickrTestInit implements FlickS {
 
+    private static final String REGEX_EMOGI = "(?:\uD83C[\uDF00-\uDFFF])|(?:\uD83D[\uDC00-\uDDFF])";
+    private static  final String REGEX_SPECIAL = "([A-Z]){4}([A-Z]){2}([0-9A-Z]){2}([0-9A-Z]{3})?";
+    private static final String CITY_NAME = "Minsk";
+
     @Test
     public void tapSearch() {
         loginSteps.loginFlickr();
@@ -17,12 +21,37 @@ public class SearchTest extends FlickrTestInit implements FlickS {
     }
 
     @Test
-    public void tapSearchTest() throws InterruptedException {
+    public void tapSearchEmogiTest() {
         loginSteps.loginFlickr();
         navigationMenuSteps.tapSearch();
-        searchSteps.searchItemClick("London");
-        Thread.sleep(40000);
-//        assertThat(searchPage.firstImage.isDisplayed()).as("Image is displayed").isTrue();
+        searchSteps.searchItemClick(REGEX_EMOGI);
+        assertThat(searchPage.listImages.size()<1).as("size images").isTrue();
+
+    }
+
+    @Test
+    public void tapSearchSpecialSymbolTest()  {
+        loginSteps.loginFlickr();
+        navigationMenuSteps.tapSearch();
+        searchSteps.searchItemClick(REGEX_SPECIAL);
+        assertThat(searchPage.listImages.size()<1).as("size images").isTrue();
+    }
+
+    @Test
+    public void tapSearchCancellExistTest() {
+        loginSteps.loginFlickr();
+        navigationMenuSteps.tapSearch();
+        searchSteps.searchItemClick(CITY_NAME);
+        assertThat(searchPage.cancellBtn.isExist()).as("cancelButtonExist").isTrue();
+    }
+
+    @Test
+    public void tapSearchCancelltTest() {
+        loginSteps.loginFlickr();
+        navigationMenuSteps.tapSearch();
+        searchSteps.searchItemClick(CITY_NAME);
+        searchSteps.cancellItemClick();
+        assertThat(searchPage.firstImage.isDisplayed()).as("Image is displayed").isTrue();
     }
 
     @Test
