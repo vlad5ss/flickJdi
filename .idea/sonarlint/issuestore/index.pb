@@ -35,3 +35,9 @@ W
 'src/test/java/main/tests/MainTests.java,9\9\99c4cb6788516393265b7afca8470dc9f2610097
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+\
+,src/main/java/android/config/UserConfig.java,c\5\c5b37e0730642a06dfd7c3b7f0c2cdff3b7a7600
+b
+2src/main/java/android/steps/NotificationSteps.java,0\6\06599e5898b49830eab1d7e1ab04b23593506793
+f
+6src/main/java/android/wiki/pages/NotificationPage.java,5\a\5a3b1df0072f26d337017c2a04889b6188700f66

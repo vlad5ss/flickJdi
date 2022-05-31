@@ -1,21 +1,20 @@
 
-Q
-java:S1444"4Make this "public static emailTextfield" field final(—’óœ8Ü—ÅŸ‘0
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ùì¼§0
-W
-java:S1118
-":Add a private constructor to hide the implicit public one.(É‚ÛÃ8õÍõ¢0
-R
-java:S1444"0Make this "public static getStarted" field final(×ËÑéıÿÿÿÿ8Èÿõ¢0
-m
-java:S1128"KRemove this unused import 'com.epam.jdi.light.mobile.elements.common.Text'.(­Î±Úûÿÿÿÿ8Ùì¼§0
+k
+java:S1128"KRemove this unused import 'com.epam.jdi.light.mobile.elements.common.Text'.(­Î±Úûÿÿÿÿ8Ùì¼§0
+[	java:S125"<This block of commented-out lines of code should be removed.(÷Èšâüÿÿÿÿ8¥ìéŸ‘0
 O
-java:S1444"2Make this "public static loginNextBtn" field final(™È¹ÿ8Ôò¢¥0
-Q
-java:S1444#"/Make this "public static signinBtn" field final(ø´±·ûÿÿÿÿ8èìóŸ‘0
-X	java:S125"<This block of commented-out lines of code should be removed.(¸ï«8úÿÄŸ‘0
-X	java:S125"<This block of commented-out lines of code should be removed.(²á8´ÕóŸ‘0
-]	java:S125"<This block of commented-out lines of code should be removed.(÷Èšâüÿÿÿÿ8¥ìéŸ‘0
-Y
-java:S1444 "7Make this "public static passwordTextField" field final(‹øØ›ùÿÿÿÿ8èìóŸ‘0
+java:S1444"4Make this "public static emailTextfield" field final(—’óœ8Ü—ÅŸ‘0
+M
+java:S1444"2Make this "public static loginNextBtn" field final(™È¹ÿ8Ôò¢¥0
+P
+java:S1444"0Make this "public static getStarted" field final(×ËÑéıÿÿÿÿ8Èÿõ¢0
+V	java:S125"<This block of commented-out lines of code should be removed.(¸ï«8úÿÄŸ‘0
+K
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ùì¼§0
+O
+java:S1444"/Make this "public static signinBtn" field final(ø´±·ûÿÿÿÿ8èìóŸ‘0
+U
+java:S1118":Add a private constructor to hide the implicit public one.(É‚ÛÃ8õÍõ¢0
+V	java:S125"<This block of commented-out lines of code should be removed.(²á8´ÕóŸ‘0
+W
+java:S1444"7Make this "public static passwordTextField" field final(‹øØ›ùÿÿÿÿ8èìóŸ‘0
