@@ -1,0 +1,13 @@
+
+N
+java:S1444"2Make this "public static navMenuFeeds" field final(¹¯Õ8Î šÌ‘0
+P
+java:S1444"3Make this "public static navMenuSearch" field final(Úû½˜8Î šÌ‘0
+V
+java:S1444"4Make this "public static navMenuProfile" field final(ì”Ü‚ûÿÿÿÿ8Î šÌ‘0
+[
+java:S1444"9Make this "public static navMenuNotification" field final(…²õ³şÿÿÿÿ8Î šÌ‘0
+P
+java:S1444"3Make this "public static navMenuCamera" field final(¯ü†®8Î šÌ‘0
+\
+java:S1118":Add a private constructor to hide the implicit public one.(Ñâîÿÿÿÿÿ8Î šÌ‘0

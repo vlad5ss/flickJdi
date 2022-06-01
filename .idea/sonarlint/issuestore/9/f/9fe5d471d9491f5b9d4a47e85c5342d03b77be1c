@@ -1,0 +1,16 @@
+
+Q
+java:S1444"4Make this "public static searchTextView" field final(ãÄÓó8˜ÈóË‘0
+\
+java:S1118
+":Add a private constructor to hide the implicit public one.(Ó„˜Õşÿÿÿÿ8˜ÈóË‘0
+N
+java:S1444",Make this "public static images" field final(€å¬ÿÿÿÿÿ8ú¯‰Ñ‘0
+M
+java:S1444"0Make this "public static listImages" field final(†¨Õ‚8°¿½Ì‘0
+L
+java:S1444"/Make this "public static searchBtn" field final(İìİä8˜ÈóË‘0
+R
+java:S1444"0Make this "public static cancellBtn" field final(ØÇ¿Ÿıÿÿÿÿ8Û–ôË‘0
+R
+java:S1444"0Make this "public static firstImage" field final(Š­Æøşÿÿÿÿ8˜ÈóË‘0

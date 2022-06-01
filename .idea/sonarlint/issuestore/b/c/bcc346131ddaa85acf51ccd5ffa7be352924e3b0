@@ -1,7 +1,7 @@
 
-Q
-java:S1444"6Make this "public static allowPerpessions" field final(Ï¹‡œ8”²­0
-U
-java:S1118":Add a private constructor to hide the implicit public one.(©‡Õ8”²­0
-J
-java:S1444"/Make this "public static cameraBtn" field final(³ˆÖ…8Ì¶£®0
+S
+java:S1444	"6Make this "public static allowPerpessions" field final(Ï¹‡œ8¥şÌ‘0
+L
+java:S1444"/Make this "public static cameraBtn" field final(³ˆÖ…8¥şÌ‘0
+W
+java:S1118":Add a private constructor to hide the implicit public one.(©‡Õ8¥şÌ‘0

@@ -1,29 +1,45 @@
 
+M
+java:S1444"0Make this "public static searchPage" field final(ÍØ—Í8©×Ñ‘0
+~
+java:S1104"\Make notificationPage a static final constant or non-public and provide accessors if needed.(­¤•Ùùÿÿÿÿ8©×Ñ‘0
+s
+java:S1104"VMake searchPage a static final constant or non-public and provide accessors if needed.(ÍØ—Í8©×Ñ‘0
+y
+java:S1104"WMake commentPage a static final constant or non-public and provide accessors if needed.(Š‚ºŞùÿÿÿÿ8Î ¡Ò‘0
 K
-java:S1444	"/Make this "public static loginPage" field final(ÿˆg8™óù·‘0
+java:S1444	"/Make this "public static loginPage" field final(ÿˆg8©×Ñ‘0
+Q
+java:S1444"/Make this "public static aboutPage" field final(ƒµ€Îúÿÿÿÿ8©×Ñ‘0
+R
+java:S1444"0Make this "public static cameraPage" field final(„£ı³üÿÿÿÿ8©×Ñ‘0
 w
-java:S1104"UMake aboutPage a static final constant or non-public and provide accessors if needed.(ƒµ€Îúÿÿÿÿ8™óù·‘0
-\
-java:S1118":Add a private constructor to hide the implicit public one.(ÀæëÇùÿÿÿÿ8™óù·‘0
-S
-java:S1444"1Make this "public static profilePage" field final(’Âüÿÿÿÿ8™óù·‘0
-q
-java:S1104	"UMake loginPage a static final constant or non-public and provide accessors if needed.(ÿˆg8™óù·‘0
+java:S1104"UMake aboutPage a static final constant or non-public and provide accessors if needed.(ƒµ€Îúÿÿÿÿ8©×Ñ‘0
 t
 java:S1104
-"XMake navMenuPages a static final constant or non-public and provide accessors if needed.(ç±éQ8™óù·‘0
-Q
-java:S1444"/Make this "public static aboutPage" field final(ƒµ€Îúÿÿÿÿ8™óù·‘0
-y
-java:S1104"WMake profilePage a static final constant or non-public and provide accessors if needed.(’Âüÿÿÿÿ8™óù·‘0
+"WMake navMenuPage a static final constant or non-public and provide accessors if needed.(êüìµ8©×Ñ‘0
+S
+java:S1444"1Make this "public static commentPage" field final(Š‚ºŞùÿÿÿÿ8Î ¡Ò‘0
+\
+java:S1118":Add a private constructor to hide the implicit public one.(ÀæëÇùÿÿÿÿ8©×Ñ‘0
+S
+java:S1444"1Make this "public static profilePage" field final(’Âüÿÿÿÿ8©×Ñ‘0
+q
+java:S1104	"UMake loginPage a static final constant or non-public and provide accessors if needed.(ÿˆg8©×Ñ‘0
+X
+java:S1444"6Make this "public static notificationPage" field final(­¤•Ùùÿÿÿÿ8©×Ñ‘0
 N
 java:S1444
-"2Make this "public static navMenuPages" field final(ç±éQ8™óù·‘0
+"1Make this "public static navMenuPage" field final(êüìµ8©×Ñ‘0
+L
+java:S1444"/Make this "public static photoPage" field final(†ëš¡8Ù½ØÑ‘0
 x
-java:S1104"VMake cameraPage a static final constant or non-public and provide accessors if needed.(„£ı³üÿÿÿÿ8™óù·‘0
-R
-java:S1444"0Make this "public static cameraPage" field final(„£ı³üÿÿÿÿ8™óù·‘0
-X
-java:S1444"6Make this "public static notificationPage" field final(­¤•Ùùÿÿÿÿ8ÿ‰û·‘0
-~
-java:S1104"\Make notificationPage a static final constant or non-public and provide accessors if needed.(­¤•Ùùÿÿÿÿ8ÿ‰û·‘0
+java:S1104"VMake cameraPage a static final constant or non-public and provide accessors if needed.(„£ı³üÿÿÿÿ8©×Ñ‘0
+r
+java:S1104"UMake photoPage a static final constant or non-public and provide accessors if needed.(†ëš¡8Ù½ØÑ‘0
+y
+java:S1104"WMake profilePage a static final constant or non-public and provide accessors if needed.(’Âüÿÿÿÿ8©×Ñ‘0
+Q
+java:S1444"/Make this "public static favesPage" field final(ï÷ıÌüÿÿÿÿ8ï‹Õ‘0
+w
+java:S1104"UMake favesPage a static final constant or non-public and provide accessors if needed.(ï÷ıÌüÿÿÿÿ8ï‹Õ‘0
